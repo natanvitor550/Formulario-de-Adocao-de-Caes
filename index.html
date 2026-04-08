@@ -23,7 +23,7 @@
         <input type="idade" id="idade" placeholder="Digite seu idade" required>
         <br>
         <label for="cpf">Cpf</label>
-        <input type="text" id="cpf" placeholder="Digite seu cpf" required>
+        <input type="text" id="cpf" placeholder="Digite seu cpf" minlength="11" required>
         <br>
         <label for="cidade">Cidade</label>
         <input type="text" id="cidade" placeholder="Digite qual sua cidade" required>
@@ -34,7 +34,7 @@
             <br>
             <option value="casa">Casa</option>
             <option value="apartamento">Apartamento</option> 
-        </select>
+        </select required>
         <br>
         <label for="quintal">Possui Quintal?</label>
         <br>
@@ -43,10 +43,10 @@
         <br>
         <label for="pet">já teve um pet?</label>
         <br>
-        <input type="radio" name="pet" value="sim">Sim
+        <input type="radio" name="pet" value="sim" required>Sim
         <input type="radio" name="pet" value="nao">Não 
         <br>
-        <label for="horas">Horas sozinho</label>
+        <label for="horas">Quanto tempo o pet fica sozinho</label>
         <input type="text" id="horas" placeholder="Quanto tempo o pet fica sozinho" required>
         <br>
         <label for="motivo">Motivo de adotar?</label>
