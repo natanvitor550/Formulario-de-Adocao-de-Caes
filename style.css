@@ -1,0 +1,21 @@
+body{
+    background-color: darkorchid;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-image: url("assets/Wallpaper.png");
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.caixa{
+    background-color:darkgray;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+
